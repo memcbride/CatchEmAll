@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91637F8D2C2F90EF009E6B97 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91637F8C2C2F90EF009E6B97 /* CreaturesViewModel.swift */; };
 		9193EE9E2C2F75FA00B4A800 /* CatchEmAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193EE9D2C2F75FA00B4A800 /* CatchEmAllApp.swift */; };
 		9193EEA02C2F75FA00B4A800 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193EE9F2C2F75FA00B4A800 /* CreaturesListView.swift */; };
 		9193EEA22C2F75FB00B4A800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9193EEA12C2F75FB00B4A800 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		91637F8B2C2F8750009E6B97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91637F8C2C2F90EF009E6B97 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
 		9193EE9A2C2F75FA00B4A800 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9193EE9D2C2F75FA00B4A800 /* CatchEmAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllApp.swift; sourceTree = "<group>"; };
 		9193EE9F2C2F75FA00B4A800 /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				9193EE9D2C2F75FA00B4A800 /* CatchEmAllApp.swift */,
+				91637F8C2C2F90EF009E6B97 /* CreaturesViewModel.swift */,
 				9193EE9F2C2F75FA00B4A800 /* CreaturesListView.swift */,
 				9193EEA12C2F75FB00B4A800 /* Assets.xcassets */,
 				9193EEA32C2F75FB00B4A800 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91637F8D2C2F90EF009E6B97 /* CreaturesViewModel.swift in Sources */,
 				9193EEA02C2F75FA00B4A800 /* CreaturesListView.swift in Sources */,
 				9193EE9E2C2F75FA00B4A800 /* CatchEmAllApp.swift in Sources */,
 			);
