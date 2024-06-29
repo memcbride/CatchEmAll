@@ -25,18 +25,37 @@ struct CreatureView: View {
                 .padding(.bottom)
             
             HStack {
-                Image(systemName: "figure.run.circle")
-                    .resizable()
-                    .scaledToFit()
-                    .backgroundStyle(.white)
-                    .frame(height: 96)
-                    .cornerRadius(16)
-                    .shadow(radius: 8, x: 5, y: 5)
-                    .overlay {
-                        RoundedRectangle(cornerRadius: 16)
-                            .stroke(.gray.opacity(0.5), lineWidth: 1)
-                    }
-                    .padding(.trailing)
+                AsyncImage(url: URL(string: creatureDetailVM.imageURL)) { image in
+                    image
+                        .resizable()
+                        .scaledToFit()
+                        .background(.white)
+                        .frame(height: 96)
+                        .cornerRadius(16)
+                        .shadow(radius: 8, x: 5, y: 5)
+                        .overlay {
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(.gray.opacity(0.5), lineWidth: 1)
+                        }
+                        .padding(.trailing)
+                } placeholder: {
+                     RoundedRectangle(cornerRadius: 10)
+                        .foregroundColor(.clear)
+                        .frame(maxWidth: 96, maxHeight: 96)
+                }
+                
+                //                Image(systemName: "figure.run.circle")
+                //                    .resizable()
+                //                    .scaledToFit()
+                //                    .backgroundStyle(.white)
+                //                    .frame(height: 96)
+                //                    .cornerRadius(16)
+                //                    .shadow(radius: 8, x: 5, y: 5)
+                //                    .overlay {
+                //                        RoundedRectangle(cornerRadius: 16)
+                //                            .stroke(.gray.opacity(0.5), lineWidth: 1)
+                //                    }
+                //                    .padding(.trailing)
                 
                 VStack(alignment: .leading) {
                     HStack(alignment: .center) {
@@ -60,9 +79,9 @@ struct CreatureView: View {
                             .font(.largeTitle)
                             .bold()
                     }
-
+                    
                 }
-
+                
             }
             
             Spacer()
@@ -72,7 +91,7 @@ struct CreatureView: View {
             creatureDetailVM.urlString = creature.url
             await creatureDetailVM.getData()
         }
-     }
+    }
 }
 
 #Preview {
