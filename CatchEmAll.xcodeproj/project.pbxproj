@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9118B3632C30625600C73604 /* CreatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118B3622C30625600C73604 /* CreatureView.swift */; };
+		9118B3652C30680B00C73604 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118B3642C30680B00C73604 /* Creature.swift */; };
+		9118B3672C306F9800C73604 /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118B3662C306F9800C73604 /* CreatureDetailViewModel.swift */; };
 		91637F8D2C2F90EF009E6B97 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91637F8C2C2F90EF009E6B97 /* CreaturesViewModel.swift */; };
 		9193EE9E2C2F75FA00B4A800 /* CatchEmAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193EE9D2C2F75FA00B4A800 /* CatchEmAllApp.swift */; };
 		9193EEA02C2F75FA00B4A800 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193EE9F2C2F75FA00B4A800 /* CreaturesListView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9118B3622C30625600C73604 /* CreatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureView.swift; sourceTree = "<group>"; };
+		9118B3642C30680B00C73604 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		9118B3662C306F9800C73604 /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 		91637F8B2C2F8750009E6B97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		91637F8C2C2F90EF009E6B97 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
 		9193EE9A2C2F75FA00B4A800 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				9193EE9D2C2F75FA00B4A800 /* CatchEmAllApp.swift */,
+				9118B3642C30680B00C73604 /* Creature.swift */,
 				91637F8C2C2F90EF009E6B97 /* CreaturesViewModel.swift */,
+				9118B3662C306F9800C73604 /* CreatureDetailViewModel.swift */,
 				9193EE9F2C2F75FA00B4A800 /* CreaturesListView.swift */,
+				9118B3622C30625600C73604 /* CreatureView.swift */,
 				9193EEA12C2F75FB00B4A800 /* Assets.xcassets */,
 				9193EEA32C2F75FB00B4A800 /* Preview Content */,
 			);
@@ -265,6 +274,9 @@
 				91637F8D2C2F90EF009E6B97 /* CreaturesViewModel.swift in Sources */,
 				9193EEA02C2F75FA00B4A800 /* CreaturesListView.swift in Sources */,
 				9193EE9E2C2F75FA00B4A800 /* CatchEmAllApp.swift in Sources */,
+				9118B3652C30680B00C73604 /* Creature.swift in Sources */,
+				9118B3672C306F9800C73604 /* CreatureDetailViewModel.swift in Sources */,
+				9118B3632C30625600C73604 /* CreatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
