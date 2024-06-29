@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91637F8B2C2F8750009E6B97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9193EE9A2C2F75FA00B4A800 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9193EE9D2C2F75FA00B4A800 /* CatchEmAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllApp.swift; sourceTree = "<group>"; };
 		9193EE9F2C2F75FA00B4A800 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		9193EE912C2F75FA00B4A800 = {
 			isa = PBXGroup;
 			children = (
+				91637F8B2C2F8750009E6B97 /* README.md */,
 				9193EE9C2C2F75FA00B4A800 /* CatchEmAll */,
 				9193EEAD2C2F75FB00B4A800 /* CatchEmAllTests */,
 				9193EEB72C2F75FB00B4A800 /* CatchEmAllUITests */,
